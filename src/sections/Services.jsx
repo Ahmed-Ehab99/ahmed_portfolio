@@ -6,7 +6,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const Services = () => {
-  const text = `I build secure, high-performance full-stack apps
+  const text = `I build secure, high-performance frontend apps
     with smooth UX to drive growth 
     not headaches.`;
   const serviceRefs = useRef([]);
