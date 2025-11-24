@@ -40,9 +40,9 @@ export const servicesData = [
     ],
   },
   {
-    title: "eCommerce Development",
+    title: "E-Commerce Development",
     description:
-      "From product browsing to secure checkout, I build lightning-fast eCommerce experiences with clean UI, optimized API workflows, and reliable cart, auth, and order systems.",
+      "From product browsing to secure checkout, I build lightning-fast eCommerce experiences with clean UI, optimized API workflows, and reliable cart, auth, and order systems with a dashboard to control products.",
     items: [
       {
         title: "Custom Storefronts",
@@ -61,7 +61,7 @@ export const servicesData = [
   {
     title: "Modern Web Architecture",
     description:
-      "Scalable frontend architectures that grow with your business. I implement cutting-edge patterns like server components, micro-frontends, and JAMstack to deliver blazing-fast user experiences with maintainable codebases.",
+      "Scalable frontend architectures that grow with your business. I implementing cutting-edge patterns like Server Side Rendering (SSR), Static Site Generation (SSG) and Incremental Static Regeneration (ISR) to deliver blazing-fast user experiences with maintainable codebases.",
     items: [
       {
         title: "Server Components",
@@ -80,7 +80,7 @@ export const servicesData = [
   {
     title: "Performance & Code Optimization",
     description:
-      "I help existing websites achieve top Lighthouse scores and eliminate bottlenecks through code refactoring, image optimization, bundle analysis, and UX improvements.",
+      "I transform slow, underperforming websites into fast, efficient, and scalable experiences. Through advanced code refactoring, image optimization, bundle analysis, and UX enhancements, I ensure your site loads instantly, and delivers a smooth user experience across all devices.",
     items: [
       {
         title: "Frontend Optimization",
