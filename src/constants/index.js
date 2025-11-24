@@ -1,3 +1,15 @@
+import {
+  SiGithub,
+  SiNextdotjs,
+  SiReact,
+  SiReactquery,
+  SiRedux,
+  SiStripe,
+  SiSupabase,
+  SiTailwindcss,
+  SiTypescript,
+} from "react-icons/si";
+
 export const servicesData = [
   {
     title: "Frontend Development",
@@ -106,7 +118,6 @@ export const projects = [
       "Built a modern, responsive landing page for company using React.js, Shadcn, React Hook Form, Tanstack Query, ZOD, Zustand, TypeScript and some help from react bits. Implemented features like videos carousel, login and sign up logic, whatsapp contact, alot of animations. Utilized Tailwind CSS, ShadCN, and Framer Motion for a polished UI/UX. Integrated React Hook Form and Zod for robust form validation, and TanStack Query for efficient data fetching and caching.",
     href: "https://hemex.ai/",
     image: "/assets/projects/HEMEX.webp",
-    bgImage: "",
     frameworks: [
       { id: 1, name: "React.js" },
       { id: 2, name: "Typescript" },
@@ -124,7 +135,6 @@ export const projects = [
       "An AI image SaaS platform that excels in image processing capabilities, integrates a secure payment infrastructure, offers advanced image search functionalities, and supports multiple AI features, including image restoration, recoloring, object removal, generative filling, and background removal.",
     href: "https://imaginify-six-gray.vercel.app/",
     image: "/assets/projects/imaginify.webp",
-    bgImage: "",
     frameworks: [
       { id: 1, name: "Next.js" },
       { id: 2, name: "Typescript" },
@@ -141,7 +151,6 @@ export const projects = [
       "A Modern E-Commerce Application with many features like dark-mode, logIn, signUp, LogOut, search input for search about product, filtring in shop page and cart sheet with optimistic updates",
     href: "https://next-gen-shop.vercel.app/",
     image: "/assets/projects/NextGenShop.webp",
-    bgImage: "",
     frameworks: [
       { id: 1, name: "Next.js" },
       { id: 2, name: "Typescript" },
@@ -158,7 +167,6 @@ export const projects = [
       "A complete e-commerce application. including smoth UI, authentication using clerk, search input for search about products, selecting category, basket page, orders page and many more features. some technologies used: zustand state management to hande basket operations, sanity CMS backend and stripe for payment.",
     href: "https://shoper-ecommerce.vercel.app/",
     image: "/assets/projects/shoper.webp",
-    bgImage: "",
     frameworks: [
       { id: 1, name: "Next.js" },
       { id: 2, name: "Sanity CMS" },
@@ -176,7 +184,6 @@ export const projects = [
       "A simple movie application allow user to show top 5 movies that other users search about them, and also user can search for movies and show details about them. with some help from react-use library to delay fetching movies until user stop typing (useDebounce). finally i use appwrite as backend to store count of searching of movies to display top movies section.",
     href: "https://movie-app-533o.vercel.app/",
     image: "/assets/projects/movie_app.webp",
-    bgImage: "",
     frameworks: [
       { id: 1, name: "React.js" },
       { id: 2, name: "AppWrite CMS" },
@@ -191,7 +198,6 @@ export const projects = [
       "Amazing Gaming Landing with an amazing animation and modern user interface including some videos, audios and clip paths with some helps from react-icons and uiverse and react-use.",
     href: "https://awwwards-silk.vercel.app/",
     image: "/assets/projects/awwwards.webp",
-    bgImage: "",
     frameworks: [
       { id: 1, name: "React.js" },
       { id: 2, name: "GSAP" },
@@ -206,7 +212,6 @@ export const projects = [
       "Landing Page Showing IPhone, its Contents, and more Effects and Videos. You Can See the IPhone from All Sides Through a 3D Model.",
     href: "https://iphone-store-teal.vercel.app/",
     image: "/assets/projects/iphone.webp",
-    bgImage: "",
     frameworks: [
       { id: 1, name: "React.js" },
       { id: 2, name: "GSAP" },
@@ -220,13 +225,45 @@ export const projects = [
     description: "A Modern AI Landing Page with an Amazing Design and Pricing.",
     href: "https://brainwave-omega-gray.vercel.app/",
     image: "/assets/projects/brainwave.webp",
-    bgImage: "",
     frameworks: [
       { id: 1, name: "React.js" },
       { id: 2, name: "React Parallax" },
       { id: 3, name: "Tailwind CSS" },
       { id: 4, name: "React Router Dom" },
     ],
+  },
+];
+
+export const techLogos = [
+  { node: SiReact, title: "React" },
+  { node: SiNextdotjs, title: "Next.js" },
+  {
+    node: SiTypescript,
+    title: "TypeScript",
+  },
+  {
+    node: SiRedux,
+    title: "Redux",
+  },
+  {
+    node: SiReactquery,
+    title: "Tanstack Query",
+  },
+  {
+    node: SiSupabase,
+    title: "Supabase",
+  },
+  {
+    node: SiStripe,
+    title: "Stripe",
+  },
+  {
+    node: SiTailwindcss,
+    title: "Tailwind CSS",
+  },
+  {
+    node: SiGithub,
+    title: "Github",
   },
 ];
 
