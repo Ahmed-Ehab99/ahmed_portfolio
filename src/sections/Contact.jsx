@@ -1,8 +1,7 @@
 import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 import AnimatedHeaderSection from "../components/AnimatedHeaderSection";
 import Marquee from "../components/Marquee";
-
-import gsap from "gsap";
 import { socialItems } from "../constants";
 
 const Contact = () => {

@@ -8,7 +8,7 @@ const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
 
   const subTitle = "404 No Bugs Found";
-  const title = "Ahmed Ehab";
+  const title = isMobile ? "Ahmed" : "Ahmed Ehab";
   const text = `I craft scalable and efficient solutions
    that empower businesses to thrive
     in the digital landscape.`;
