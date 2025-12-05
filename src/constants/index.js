@@ -146,6 +146,20 @@ export const projects = [
   },
   {
     id: 3,
+    name: "AI Notes App",
+    description:
+      "Simple notes app with enhancements by ai, which you can ask it to find your note and give it to you.",
+    href: "https://ai-notes-app-vert.vercel.app/",
+    image: "/assets/projects/ai_notes.webp",
+    frameworks: [
+      { id: 1, name: "Next.js" },
+      { id: 2, name: "Convex Backend" },
+      { id: 3, name: "Goolge AI SDK API" },
+      { id: 4, name: "React Hook Form" },
+    ],
+  },
+  {
+    id: 4,
     name: "NextGenShop",
     description:
       "A Modern E-Commerce Application with many features like dark-mode, logIn, signUp, LogOut, search input for search about product, filtring in shop page and cart sheet with optimistic updates",
@@ -161,7 +175,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     name: "Shoper",
     description:
       "A complete e-commerce application. including smoth UI, authentication using clerk, search input for search about products, selecting category, basket page, orders page and many more features. some technologies used: zustand state management to hande basket operations, sanity CMS backend and stripe for payment.",
@@ -178,7 +192,7 @@ export const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     name: "Movie App",
     description:
       "A simple movie application allow user to show top 5 movies that other users search about them, and also user can search for movies and show details about them. with some help from react-use library to delay fetching movies until user stop typing (useDebounce). finally i use appwrite as backend to store count of searching of movies to display top movies section.",
@@ -192,7 +206,7 @@ export const projects = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     name: "Awwwards",
     description:
       "Amazing Gaming Landing with an amazing animation and modern user interface including some videos, audios and clip paths with some helps from react-icons and uiverse and react-use.",
@@ -206,7 +220,7 @@ export const projects = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     name: "Iphone Store",
     description:
       "Landing Page Showing IPhone, its Contents, and more Effects and Videos. You Can See the IPhone from All Sides Through a 3D Model.",
@@ -217,19 +231,6 @@ export const projects = [
       { id: 2, name: "GSAP" },
       { id: 3, name: "Tailwind CSS" },
       { id: 4, name: "React Three" },
-    ],
-  },
-  {
-    id: 8,
-    name: "BrainWave",
-    description: "A Modern AI Landing Page with an Amazing Design and Pricing.",
-    href: "https://brainwave-omega-gray.vercel.app/",
-    image: "/assets/projects/brainwave.webp",
-    frameworks: [
-      { id: 1, name: "React.js" },
-      { id: 2, name: "React Parallax" },
-      { id: 3, name: "Tailwind CSS" },
-      { id: 4, name: "React Router Dom" },
     ],
   },
 ];
