@@ -1,8 +1,8 @@
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 import { useRef } from "react";
 import AnimatedHeaderSection from "../components/AnimatedHeaderSection";
 import { servicesData } from "../constants";
-import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
 
 const Services = () => {
   const text = `I build secure, high-performance frontend apps
@@ -44,7 +44,7 @@ const Services = () => {
           <div className="flex items-center justify-between gap-4 font-light">
             <div className="flex flex-col gap-6">
               <h2 className="text-4xl lg:text-5xl">{service.title}</h2>
-              <p className="text-xl leading-relaxed tracking-widest lg:text-2xl text-white/60 text-pretty">
+              <p className="text-lg leading-relaxed tracking-widest lg:text-2xl text-white/60 text-pretty">
                 {service.description}
               </p>
               <div className="flex flex-col gap-2 text-2xl sm:gap-4 lg:text-3xl text-white/80">
