@@ -73,7 +73,7 @@ export const servicesData = [
   {
     title: "Modern Web Architecture",
     description:
-      "Scalable frontend architectures that grow with your business. I implementing cutting-edge patterns like Server Side Rendering (SSR), Static Site Generation (SSG) and Incremental Static Regeneration (ISR) to deliver blazing-fast user experiences with maintainable codebases.",
+      "I implementing cutting-edge patterns like Server Side Rendering (SSR), Static Site Generation (SSG) and Incremental Static Regeneration (ISR) to deliver blazing-fast user experiences with maintainable codebases.",
     items: [
       {
         title: "Server Components",
@@ -113,6 +113,23 @@ export const servicesData = [
 export const projects = [
   {
     id: 1,
+    name: "Aurora LMS",
+    description:
+      "A full-stack B2C learning management system with enterprise-grade security and seamless user experience and high performance.",
+    href: "https://aurora-lms-three.vercel.app/",
+    image: "/assets/projects/aurora.webp",
+    frameworks: [
+      { id: 1, name: "Next.js" },
+      { id: 2, name: "Typescript" },
+      { id: 3, name: "Arcjet" },
+      { id: 4, name: "Prisma" },
+      { id: 5, name: "Neon DB" },
+      { id: 6, name: "Tigris" },
+      { id: 7, name: "Better Auth" },
+    ],
+  },
+  {
+    id: 2,
     name: "HEMEX Landing Page",
     description:
       "Built a modern, responsive landing page for company using React.js, Shadcn, React Hook Form, Tanstack Query, ZOD, Zustand, TypeScript and some help from react bits. Implemented features like videos carousel, login and sign up logic, whatsapp contact, alot of animations. Utilized Tailwind CSS, ShadCN, and Framer Motion for a polished UI/UX. Integrated React Hook Form and Zod for robust form validation, and TanStack Query for efficient data fetching and caching.",
@@ -129,7 +146,7 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     name: "Imaginify SAAS App",
     description:
       "An AI image SaaS platform that excels in image processing capabilities, integrates a secure payment infrastructure, offers advanced image search functionalities, and supports multiple AI features, including image restoration, recoloring, object removal, generative filling, and background removal.",
@@ -145,7 +162,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     name: "AI Notes App",
     description:
       "Simple notes app with enhancements by ai, which you can ask it to find your note and give it to you.",
@@ -159,7 +176,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     name: "NextGenShop",
     description:
       "A Modern E-Commerce Application with many features like dark-mode, logIn, signUp, LogOut, search input for search about product, filtring in shop page and cart sheet with optimistic updates",
@@ -175,7 +192,7 @@ export const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     name: "Shoper",
     description:
       "A complete e-commerce application. including smoth UI, authentication using clerk, search input for search about products, selecting category, basket page, orders page and many more features. some technologies used: zustand state management to hande basket operations, sanity CMS backend and stripe for payment.",
@@ -189,20 +206,6 @@ export const projects = [
       { id: 5, name: "Stripe API" },
       { id: 6, name: "Framer Motion" },
       { id: 7, name: "Tailwind CSS" },
-    ],
-  },
-  {
-    id: 6,
-    name: "Movie App",
-    description:
-      "A simple movie application allow user to show top 5 movies that other users search about them, and also user can search for movies and show details about them. with some help from react-use library to delay fetching movies until user stop typing (useDebounce). finally i use appwrite as backend to store count of searching of movies to display top movies section.",
-    href: "https://movie-app-533o.vercel.app/",
-    image: "/assets/projects/movie_app.webp",
-    frameworks: [
-      { id: 1, name: "React.js" },
-      { id: 2, name: "AppWrite CMS" },
-      { id: 3, name: "Tailwind CSS" },
-      { id: 4, name: "React Router Dom" },
     ],
   },
   {
@@ -233,6 +236,20 @@ export const projects = [
       { id: 4, name: "React Three" },
     ],
   },
+  // {
+  //   id: 6,
+  //   name: "Movie App",
+  //   description:
+  //     "A simple movie application allow user to show top 5 movies that other users search about them, and also user can search for movies and show details about them. with some help from react-use library to delay fetching movies until user stop typing (useDebounce). finally i use appwrite as backend to store count of searching of movies to display top movies section.",
+  //   href: "https://movie-app-533o.vercel.app/",
+  //   image: "/assets/projects/movie_app.webp",
+  //   frameworks: [
+  //     { id: 1, name: "React.js" },
+  //     { id: 2, name: "AppWrite CMS" },
+  //     { id: 3, name: "Tailwind CSS" },
+  //     { id: 4, name: "React Router Dom" },
+  //   ],
+  // },
 ];
 
 export const techLogos = [

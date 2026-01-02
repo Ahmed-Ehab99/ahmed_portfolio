@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import AnimatedHeaderSection from "../components/AnimatedHeaderSection";
 import { servicesData } from "../constants";
-import { useMediaQuery } from "react-responsive";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
@@ -10,7 +9,6 @@ const Services = () => {
     with smooth UX to drive growth 
     not headaches.`;
   const serviceRefs = useRef([]);
-  const isDesktop = useMediaQuery({ minWidth: "48rem" }); //768px
 
   useGSAP(() => {
     serviceRefs.current.forEach((el) => {
@@ -41,15 +39,7 @@ const Services = () => {
         <div
           ref={(el) => (serviceRefs.current[index] = el)}
           key={service.id || index}
-          className="sticky px-10 pt-6 pb-12 text-white bg-black border-t-2 border-white/30"
-          style={
-            isDesktop
-              ? {
-                  top: `calc(10vh + ${index * 5}em)`,
-                  marginBottom: `${(servicesData.length - index - 1) * 5}rem`,
-                }
-              : { top: 0 }
-          }
+          className="sticky px-10 pt-6 pb-12 text-white bg-black border-t-2 border-white/30 overflow-hidden top-0"
         >
           <div className="flex items-center justify-between gap-4 font-light">
             <div className="flex flex-col gap-6">
